@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.16](https://github.com/AlexsJones/llmfit/compare/v1.1.15...v1.1.16) (2026-09-17)
+
+
+### Features
+
+* **concurrency:** concurrent-session capacity estimator ([#140](https://github.com/AlexsJones/llmfit/issues/140)) ([#999](https://github.com/AlexsJones/llmfit/issues/999)) ([1936acc](https://github.com/AlexsJones/llmfit/commit/1936acc7fbd2fad0a5e7a2fe7510f4004d4007e4))
+* recognize native ternary (1.58-bit) models ([#886](https://github.com/AlexsJones/llmfit/issues/886)) ([569a9ac](https://github.com/AlexsJones/llmfit/commit/569a9ac6cf80679631fb4a12830f1b832c4f5f30))
+* **storage:** add disk planning for model libraries ([#1023](https://github.com/AlexsJones/llmfit/issues/1023)) ([42c2641](https://github.com/AlexsJones/llmfit/commit/42c2641b75ba610997718b90231ef2a412b66bf3))
+
+
+### Bug Fixes
+
+* **bench:** ignore implausible tok/s from degenerate Ollama timings ([#1042](https://github.com/AlexsJones/llmfit/issues/1042)) ([86a0d08](https://github.com/AlexsJones/llmfit/commit/86a0d08a9fe98ad35fc9ec11e90f627aeb1e864e))
+* **bench:** stop wall timer after body read in OpenAI and Ollama paths ([#1037](https://github.com/AlexsJones/llmfit/issues/1037)) ([63753e9](https://github.com/AlexsJones/llmfit/commit/63753e9ab2a95f14896512a5a566fb0c37e8271f)), closes [#1028](https://github.com/AlexsJones/llmfit/issues/1028)
+* **hardware:** recognize A-series Apple Silicon unified memory ([#1044](https://github.com/AlexsJones/llmfit/issues/1044)) ([e138964](https://github.com/AlexsJones/llmfit/commit/e1389649a2ba311b5124605978bdb381235a21bd))
+
 ## [1.1.15](https://github.com/AlexsJones/llmfit/compare/v1.1.14...v1.1.15) (2026-09-10)
 
 
